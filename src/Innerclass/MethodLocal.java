@@ -15,7 +15,7 @@ class outer{
 }
 
 public class MethodLocal {
-
+  
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		outer out = new outer();
