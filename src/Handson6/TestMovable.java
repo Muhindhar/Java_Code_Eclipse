@@ -6,7 +6,7 @@ interface Movable{
 	void moveRight();	 
 }
 class MovablePoint implements Movable{
-	int x;
+	int x;	
 	int y;
 	int xspeed;
 	int yspeed;
@@ -67,7 +67,7 @@ class MovableCircle implements Movable{
 
 }
 
-public class TsetMovable {
+public class TestMovable {
 	public static void main(String[] args) {
 
         MovablePoint p = new MovablePoint(5,5,2,3);
