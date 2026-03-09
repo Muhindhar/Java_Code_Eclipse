@@ -1,3 +1,6 @@
+//Person first class
+//student extends person
+//staff extends person
 package Handson6;
 class Person {
     private String name;

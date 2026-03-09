@@ -1,3 +1,6 @@
+/*movable is the interface, movablepoint implements the 
+interfacwe and movablecircle from the movablecircle from the 
+movable */
 package Handson6;
 interface Movable{
 	void moveUp();
@@ -67,7 +70,7 @@ class MovableCircle implements Movable{
 
 }
 
-public class TestMovable {
+public class TsetMovable {
 	public static void main(String[] args) {
 
         MovablePoint p = new MovablePoint(5,5,2,3);

@@ -30,13 +30,12 @@ abstract class Circle implements Shape{
 }
 
 class Dem implements Shape{
-
     public double calarea() {
         return 0;
     }
 
     public double calperi() {
-        return  
+        return  0;
     }
 }
 

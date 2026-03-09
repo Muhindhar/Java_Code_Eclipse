@@ -9,7 +9,7 @@ public class TheatreScreen {
 		System.out.println("Current seat avail : "+totseat);
 	}
 	public static void BookTicket(int nooftick) {
-		System.out.println("No. of seats booked : "+nooftick);
+		System.out.println("No. of seats booked : "+ nooftick);
 	}
 	public static void main(String[] args) {
 		System.out.println("Screen ticket availability status : ");

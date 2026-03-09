@@ -155,5 +155,4 @@ public class Shapes {
 	        System.out.println("Area: " + s.getArea());
 	        System.out.println("Perimeter: " + s.getPerimeter());   
 	}
-
 }

@@ -1,3 +1,4 @@
+
 package Handson6;
 class customer{
 	String name;
@@ -121,7 +122,5 @@ public class Banking {
         bank.display();
         System.out.println("Interest Rate: " + bank.getInterestRate());
         System.out.println("Withdrawal Limit: " + bank.getWithdrawalLimit());
-    
 	}
-
 }
