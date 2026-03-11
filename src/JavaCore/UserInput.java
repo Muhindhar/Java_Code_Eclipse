@@ -5,7 +5,7 @@ import java.util.*;
 public class UserInput {
 	public static void main(String[] args) throws ParseException {
 		Scanner sc = new Scanner(System.in);
-		i
+		
 		
 		System.out.println("ENter the Movie ID");
 		int mid = sc.nextInt();
@@ -21,13 +21,8 @@ public class UserInput {
 		String mlang = sc.next();
 		sc.nextLine();
 		 
-		System.out.println("Enter the Movie genre");
-		String mgen = sc.nextLine();
-		
-		System.out.println("Enter the movie release date (dd/mm/yyyy)");
-		String mdate = sc.nextLine();
-//		SimpleDateFormat mrel = new SimpleDateFormat("dd/MM/yyyy");
-//		Date moviedate = mrel.parse(mdate);
+	
+
 		Date today = new Date();
 		
 		System.out.println("Enter the movie seat cost : ");
@@ -38,9 +33,7 @@ public class UserInput {
 		System.out.println("Movie name : "+mname);
 		System.out.println("Movie description : "+mdes);
 		System.out.println("Movie language : "+mlang);
-		System.out.println("Movie genre : "+mgen);
-		System.out.println("Movie date : "+today);
-		System.out.println("Movie ticket rate : "+mrate);
+		
 		
 		
 		
