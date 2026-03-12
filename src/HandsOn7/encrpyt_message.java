@@ -7,9 +7,7 @@ public class encrpyt_message {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter message:");
 		String inp = sc.nextLine();
-
 		char arr[] = inp.toCharArray();
-
 		for (int i = 0; i < arr.length; i++) {
 			char ch = arr[i];
 
