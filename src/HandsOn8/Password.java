@@ -1,13 +1,10 @@
 package HandsOn8;
-
 import java.util.Scanner;
-
 class InvalidUsernameException extends Exception {
     public InvalidUsernameException(String msg) {
         super(msg);
     }
 }
-
 class InvalidPasswordException extends Exception {
     public InvalidPasswordException(String msg) {
         super(msg);
