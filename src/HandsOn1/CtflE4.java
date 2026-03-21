@@ -11,6 +11,6 @@ public class CtflE4 {
 			n++;
 		}
 		while(n<=s);
-		System.out.println(sum+1);
+		System.out.println(sum);
 	}
 }
