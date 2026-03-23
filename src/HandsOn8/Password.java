@@ -19,7 +19,6 @@ public class Password {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
         System.out.println("Enter the name");
         String usname = sc.next();
 
@@ -61,7 +60,6 @@ public class Password {
         if(!usps.matches(".*[A-Z].*")) {
             throw new InvalidPasswordException("InvalidPasswordException");
         }
-
         if(!usps.matches(".*[0-9].*")) {
             throw new InvalidPasswordException("InvalidPasswordException");
         }
