@@ -8,7 +8,7 @@ public class ArrayListDemo {
 		System.out.println("Initial size of array : "+arr.size());
 		arr.add("a");
 		arr.add("b");
-		arr.add("c");
+		arr.add("m");
 		arr.add("d");
 		System.out.println("Size of array : "+arr.size());
 		arr.remove("d");
