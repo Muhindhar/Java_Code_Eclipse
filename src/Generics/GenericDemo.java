@@ -15,7 +15,7 @@ public class GenericDemo {
 		System.out.println(io.get());
 		
 		Demo <String> sio = new Demo<String>();
-		sio.set("Muhi");
+		sio.set("Muhindhar");
 		System.out.println(sio.get());
 	}
 }
