@@ -29,10 +29,10 @@ public class UserInput {
 		float mrate = sc.nextFloat();
 		
 		System.out.println("ENTERED MOVIE DETAILS ARE : ");
-		System.out.println("Movie id : "+mid);
-		System.out.println("Movie name : "+mname);
-		System.out.println("Movie description : "+mdes);
-		System.out.println("Movie language : "+mlang);
+		System.out.println("Movie id : "+ mid);
+		System.out.println("Movie name : "+ mname);
+		System.out.println("Movie description : "+ mdes);
+		System.out.println("Movie language : "+ mlang);
 		
 		
 		
