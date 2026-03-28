@@ -8,7 +8,7 @@ public class BoundedType {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println(genericDisplay(11,5));
-		System.out.println(genericDisplay("Generics","Test"));
+		
 	}
 
 }

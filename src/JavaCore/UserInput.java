@@ -6,7 +6,6 @@ public class UserInput {
 	public static void main(String[] args) throws ParseException {
 		Scanner sc = new Scanner(System.in);
 		
-		
 		System.out.println("ENter the Movie ID");
 		int mid = sc.nextInt();
 		
@@ -20,9 +19,7 @@ public class UserInput {
 		System.out.println("Enter the Movie language : ");
 		String mlang = sc.next();
 		sc.nextLine();
-		 
-	
-
+		
 		Date today = new Date();
 		
 		System.out.println("Enter the movie seat cost : ");
