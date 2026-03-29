@@ -13,14 +13,14 @@ class a{
 }
 public class FinalKeyword {
 
-	final double pi=3.14159;
+	double pi=3.14159;
 	public void sample() {
 		pi = 3.14;
 	}
 		
 	public static void main(String[] args) {
 		FinalKeyword obj = new FinalKeyword();
-		a m = new b();
+		a m = new a();
 		m.add(6, 3);
 		System.out.println(obj.pi);
 	}

@@ -60,8 +60,8 @@ public class ComparableDemo {
 		Collections.sort(mobilelist);
 		System.out.println("Sorted by price");
 	//	priceCompare priceCompare = new priceCompare();
-		Collections.sort(mobilelist, new priceCompare() );
-		System.out.println("Mobiles after sorting :");
+		
+
 		System.out.println("Name  "+"\t" + "Ram  " +"\t"+ "Price  "+"\t");
 		for(mobile mb : mobilelist) {
 			System.out.println(mb.getName() + "\t" +
