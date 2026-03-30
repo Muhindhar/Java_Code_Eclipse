@@ -29,10 +29,6 @@ public class UserInput {
 		System.out.println("Movie id : "+ mid);
 		System.out.println("Movie name : "+ mname);
 		System.out.println("Movie description : "+ mdes);
-		System.out.println("Movie language : "+ mlang);
-		
-		
-		
-		
+		System.out.println("Movie language : "+ mlang);	
 	}
 }
