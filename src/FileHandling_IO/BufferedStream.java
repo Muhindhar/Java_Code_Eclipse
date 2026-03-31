@@ -29,7 +29,7 @@ public class BufferedStream {
 
         } 
         catch (FileNotFoundException f) {
-            System.out.println("File not found: " + f);
+            System.out.println("File is not found: " + f);
         }
         catch (IOException e) {
             System.out.println(e);
